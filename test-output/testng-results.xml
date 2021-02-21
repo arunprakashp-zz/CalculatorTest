@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="266044" started-at="2019-09-15T11:38:56Z" finished-at="2019-09-15T11:43:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="266044" started-at="2019-09-15T11:38:56Z" finished-at="2019-09-15T11:43:22Z">
+      <class name="HComTest.FetchHotels">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:HComTest.FetchHotels@77cd7a0]" name="beforeMethod" is-config="true" duration-ms="6691" started-at="2019-09-15T11:38:57Z" finished-at="2019-09-15T11:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fetchCostlyHotels(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HComTest.FetchHotels@77cd7a0]" name="fetchCostlyHotels" duration-ms="96591" started-at="2019-09-15T11:39:03Z" data-provider="HotelDetails" finished-at="2019-09-15T11:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bengaluru, India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["15/12/2019"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["16/12/2019"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 room, 1 adult]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["3"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchCostlyHotels -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:HComTest.FetchHotels@77cd7a0]" name="afterMethod" is-config="true" duration-ms="651" started-at="2019-09-15T11:40:40Z" finished-at="2019-09-15T11:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:HComTest.FetchHotels@77cd7a0]" name="beforeMethod" is-config="true" duration-ms="5445" started-at="2019-09-15T11:40:41Z" finished-at="2019-09-15T11:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="fetchCostlyHotels(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:HComTest.FetchHotels@77cd7a0]" name="fetchCostlyHotels" duration-ms="155610" started-at="2019-09-15T11:40:46Z" data-provider="HotelDetails" finished-at="2019-09-15T11:43:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bengaluru, India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["15/12/2019"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["16/12/2019"]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1 room, 1 adult]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["5"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchCostlyHotels -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:HComTest.FetchHotels@77cd7a0]" name="afterMethod" is-config="true" duration-ms="492" started-at="2019-09-15T11:43:22Z" finished-at="2019-09-15T11:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- HComTest.FetchHotels -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
